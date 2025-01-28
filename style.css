@@ -1,0 +1,12 @@
+header {
+  background-color: black;
+  position: relative;
+}
+
+.logo {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(+50%);
+}
