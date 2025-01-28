@@ -1,3 +1,4 @@
+
 section{
     padding: 20px;
     margin: 20px auto;
@@ -34,4 +35,62 @@ img {
     border-radius: 8px;   
     box-shadow: 0 4px 8px rgba(56, 56, 44, 99);
     border: solid black;
+  
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
+
+header {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: white;
+  outline: 0;
+  
+}
+
+a:hover {
+  outline: 2px solid white;
+}
+
+nav {
+  color: white;
+  margin-right: auto;
+  position: absolute;
+  right: 10px;
+}
+
+.logo {
+  color: white;
+  float: left;
+  padding: 0 80% 0 0;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+#abajo {
+  background-color: rgb(224, 224, 224);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 0;
+  margin: 0;
+  height: 90px;
+  }
