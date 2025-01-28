@@ -35,7 +35,8 @@ img {
     border-radius: 8px;   
     box-shadow: 0 4px 8px rgba(56, 56, 44, 99);
     border: solid black;
-  
+}
+
 body {
   border: 0;
   margin: 0;
@@ -93,4 +94,4 @@ footer {
   padding: 0;
   margin: 0;
   height: 90px;
-  }
+}
