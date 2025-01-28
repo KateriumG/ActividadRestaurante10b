@@ -1,3 +1,41 @@
+
+section{
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 900px;
+}
+
+h3{
+    color:black
+}
+
+p{
+    line-height: 1.6;
+}
+
+
+.productos {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    float: center;
+    text-align: center;
+}
+
+
+img {
+    height: 100px;
+    width: 100px;
+    float: center;
+}
+
+.producto{
+    background-color: white;
+    border-radius: 8px;   
+    box-shadow: 0 4px 8px rgba(56, 56, 44, 99);
+    border: solid black;
+  
 body {
   border: 0;
   margin: 0;
@@ -55,5 +93,4 @@ footer {
   padding: 0;
   margin: 0;
   height: 90px;
-
-}
+  }
